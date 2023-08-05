@@ -5,21 +5,24 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 // Page imports
-import Landing from './pages/Landing';
+import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Porfolio from './pages/Porfolio';
 
 function App() {
-  const [page, setPage] = useState('landing');
+  const [page, setPage] = useState('home');
 
   const handlePageView = () => {
 
     switch (page) {
-      case 'landing':
-        return <Landing />;
+      case 'home':
+        return <Home />;
       case 'about':
         return <About />;
+      case 'porfolio':
+          return <Porfolio />;  
         case 'resume':
           return <Resume />;
       default:

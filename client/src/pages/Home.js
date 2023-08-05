@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-function Landing() {
+function Home() {
 
 return (
     <main>
-      <h1>Landing</h1>
+      <h1>Home</h1>
       <p>Welcome to our React Starter Site</p>
 
 
@@ -12,4 +12,4 @@ return (
   )
 }
 
-    export default Landing;
+    export default Home;
