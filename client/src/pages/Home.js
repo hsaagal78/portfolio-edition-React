@@ -4,10 +4,10 @@ function Home() {
 
 return (
     <main>
-      <h1>Home</h1>
-      <p>Welcome to our React Starter Site</p>
-
-
+        <img src="../client/asses/image.png" alt= "Home" />
+        <h1>Hernan Sagal</h1>
+        <h2>Web Developer</h2>
+      
     </main>
   )
 }
