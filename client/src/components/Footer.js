@@ -6,7 +6,7 @@ function Footer(propsObj) {
     return (
       <footer className="row justify-between">
         <p>&copy; {year}</p>
-        <p>Dev'd and Designed by Hernan Sagal</p>
+        <p className="footerP">Dev'd and Designed by Hernan Sagal</p>
       </footer>
     )
   }

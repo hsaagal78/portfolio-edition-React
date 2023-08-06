@@ -75,7 +75,7 @@ function Contact() {
           cols="30"
           rows="10"
           placeholder="Enter your message"></textarea>
-        <button>Submit</button>
+        <button className='button'>Submit</button>
       </form>
     </main>
   )
