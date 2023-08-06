@@ -1,31 +1,37 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; 
+
 import noteTaker from '../asses/noteTaker.png'
-import rype from '../asses/rype.png'
-import techBlog from '../asses/techBlog.png'
-import textEditor from '../asses/textEditor.png'
+// import rype from '../asses/rype.png'
+// import techBlog from '../asses/techBlog.png'
+// import textEditor from '../asses/textEditor.png'
+
+
 function Portfolio() {
     return (
      
-      <ul className='porfolio-contaner'>
-        <h1>Portfolio</h1>
-        <li>
-        <a href='https:fathomless-coast-62859-4d8464296632.herokuapp.com'></a>
-        <img src={noteTaker} 
+      <section className='porfolio-noteTaker'>
+        
+        <div className='link-noteTaker'>
+        <a 
+        className='link-noteTaker'
+        href="https://fathomless-coast-62859-4d8464296632.herokuapp.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        ><img src={noteTaker} 
         className='img-noteTaker'
-         alt= 'noteTaker' />
-         <h1>Note Taker</h1>
-         <h2>App that allos user to create,update and delete notes</h2>
-        </li>
-
+         alt= 'noteTaker' /></a
+        >
+        <a className='github-logo' href="https://github.com/hsaagal78/noteTakerCode"><FontAwesomeIcon icon={faGithub} /></a>
+        <h1>Note Taker</h1>
+         <h2>App that allwos user to create,update and delete notes</h2>
+         
+       </div>
         
-        
-        </ul>
+      </section>
     )
   }
   
   export default Portfolio;
 
-  // https:fathomless-coast-62859-4d8464296632.herokuapp.com/(text editor)
- 
-        // https://fierce-fortress-39623-eda80897ed13.herokuapp.com/(Tech Blog)
-        // https://lit-caverns-20017-2064580b596c.herokuapp.com/(Note Taker)
