@@ -4,7 +4,6 @@
   "description": "Welcome to my single-page application portfolio for a web developer. This portfolio highlights my expertise and showcases a collection of my work samples, providing insights into my skills, projects, and ways to get in touch with me.",
   "main": "index.js",
   "scripts": {
-    "dev": "cd ./client && npm start",
     "start": "cd ./client && npm start"
   },
   "keywords": [],
