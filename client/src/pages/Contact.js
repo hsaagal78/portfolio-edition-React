@@ -24,6 +24,7 @@ function Contact() {
       ...formData,
       [stateProp]: value
     });
+    // A condicional for make sure user send a message
     if (stateProp === 'message') {
       setMessageError(false);
     }
@@ -75,31 +76,36 @@ function Contact() {
   return (
     <main className="contact-container">
       <h1 className="text-center">Contact Me</h1>
-
-      {showConfirmation && <p className="text-center confirmation">Thanks for your message! I'll get back to you soon.</p>}
+      {/* Promt a message using showConfirmation funtion */}
+      {showConfirmation && <p className="text-center confirmation">Thanks for your message!.</p>}
 
       <form
+      //Call handleSubmit funtion
         onSubmit={handleSubmit}
         className="column">
         <input
           name="userName"
+          //Call handleInputChange funtion
           onChange={handleInputChange}
           value={formData.userName}
           type="text"
           placeholder="Enter your name" />
         <input
           name="email"
+          //Call handleInputChange funtion
           onChange={handleInputChange}
           value={formData.email}
           type="email"
           placeholder="Enter your email address" />
         <textarea
           name="message"
+          //Call handleInputChange funtion
           onChange={handleInputChange}
           value={formData.message}
           cols="30"
           rows="10"
           placeholder="Enter your message"></textarea>
+          {/* Promt a massage using a funtion messageError */}
          {messageError && <p className="error">Enter your message is required</p>}
         <button className='button'>Submit</button>
       </form>
