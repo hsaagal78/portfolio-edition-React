@@ -8,7 +8,7 @@ Welcome to my single-page application portfolio for a web developer. This portfo
 ## Table of Contents
 - [Features](#features)
 - [Usage](#usage)
-- [Installation](#installation)
+- [Languages Used](#Languages_Used)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
 
@@ -23,8 +23,13 @@ Welcome to my single-page application portfolio for a web developer. This portfo
 ## Usage
 Visit the deployed portfolio to explore the developer's work samples and learn more about their skills and expertise, https://github.com/hsaagal78/portfolio-edition-React
 
-## Installation
-No installation is required for this portfolio as it is a web-based application.
+## Languages Used
+
+- React.js
+- Node.js
+- Express.js
+- HTML
+- SASS
 
 # license 
 ![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
