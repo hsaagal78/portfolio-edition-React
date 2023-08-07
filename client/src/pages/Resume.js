@@ -1,8 +1,10 @@
+import resume from '../asses/resume.pdf'
+
 function Resume() {
     return (
       <main className="resume-container">
         <h1>Resume</h1>
-        <a href="https://docs.google.com/document/d/1esA5dB7hDbTy94lZgezmU6rCArmoG1pH/edit" download>Download my Resume</a>
+        <a href={resume}>Download my Resume</a>
 
         <div className="skills-section">
         <h1>Front-end Proficiencies</h1>

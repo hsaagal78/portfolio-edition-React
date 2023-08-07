@@ -48,7 +48,7 @@ function Contact() {
   }
 
   return (
-    <main>
+    <main className="contact-container">
       <h1 className="text-center">Contact Me</h1>
 
       {showConfirmation && <p className="text-center confirmation">Thanks for your message! I'll get back to you soon.</p>}
