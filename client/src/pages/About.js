@@ -1,7 +1,6 @@
 import React from 'react';
 import developer from '../asses/developer.png'
 
-
 function About() {
     return (
       <main className='aboutPage'>
