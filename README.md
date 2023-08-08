@@ -20,8 +20,10 @@ Welcome to my single-page application portfolio for a web developer. This portfo
 - Form validation for required fields and email format
 - Resume section with a downloadable link to the developer's resume
 
+
 ## Usage
-Visit the deployed portfolio to explore the developer's work samples and learn more about their skills and expertise, https://github.com/hsaagal78/portfolio-edition-React
+- Visit the deployed portfolio to explore the developer's work samples and learn more about their skills and expertise, https://github.com/hsaagal78/portfolio-edition-React
+-  https://limitless-crag-94102-5528b428d602.herokuapp.com
 
 ## Languages Used
 
