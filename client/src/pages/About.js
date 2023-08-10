@@ -4,7 +4,6 @@ import developer from '../asses/developer.png'
 function About() {
     return (
       <main className='aboutPage'>
-        <h1>About me </h1>
         <h3>Hello there! My mane is Hernan Sagal.</h3>
         <img src={developer} 
         className="img-developer"
