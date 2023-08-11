@@ -210,45 +210,57 @@ text-align: center;
 .github-logo :hover{
   cursor: pointer;
   transform: scale(1.1);
-  }
-
-
- footer {
-  
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  text-align: center;
-
-  .footerP {
-    padding-right: 25px;
-  }
- 
- }
- .footergithub-logo{
-  color: white;
-  font-size: 24px;
-  text-align: center;
-
 }
-.footergithub-logo :hover{
-  cursor: pointer;
-  transform: scale(1.1);
-  }
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+  
 
 .footerLinke-logo {
-    color: white;
-    font-size: 24px;
-    text-align: center;
+      font-size: 24px;
+      margin-right: 20px;
+      color: white;
+      transition: transform 0.2s;
   
-  }
-  .footerLinke-logo :hover{
+      
+}
+.footergithub-logo {
+  margin-left: 150px;
+  font-size: 24px;
+  margin-right: 20px;
+  color: white;
+  transition: transform 0.2s;
+  & :hover{
     cursor: pointer;
     transform: scale(1.1);
-    }
+  }
+}
+
+.footerLinke-logo {
+  font-size: 24px;
+  margin-right: 20px;
+  color: white;
+  transition: transform 0.2s;
+  & :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+.footer-year {
+    margin-right: auto;
+ }
+  
+.footerP {
+    margin-left: auto;
+    margin-right: 10px;
+ }
   
  .button {
   border: none;
